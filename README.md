@@ -38,17 +38,17 @@ the Formbot settings page:
 
 Post forms using JavaScript:
 
-    // ES5
-    var Formbot = require('formbot');
+```javascript
+// ES5
+var Formbot = require('formbot');
 
-    // ES6
-    import Formbot from 'formbot';
+// ES6
+import Formbot from 'formbot';
 
-    Formbot.config('FORMBOT_API_KEY');
+Formbot.config('FORMBOT_API_KEY');
 
-    Formbot.submit({
-        email: "yourcustomer@example.com",
-        message: "I just visited your website and now I want to talk to you!"
-    });
-
-
+Formbot.submit({
+    email: "yourcustomer@example.com",
+    message: "I just visited your website and now I want to talk to you!"
+});
+```
