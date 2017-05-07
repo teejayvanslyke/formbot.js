@@ -1,6 +1,6 @@
 # Formbot
 
-![Formbot](https://raw.githubusercontent.com/teejayvanslyke/formbot.js/master/logo.svg)
+![Formbot](https://cdn.rawgit.com/teejayvanslyke/formbot.js/master/logo.svg)
 
 Formbot alerts you when your visitors submit your contact form.
 
