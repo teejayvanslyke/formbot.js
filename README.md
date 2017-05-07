@@ -13,3 +13,42 @@ Formbot alerts you when your visitors submit your contact form.
 For more information and to sign up for a free trial, visit
 https://formbotapp.com
 
+## Install
+
+### npm
+
+    $ npm install formbot --save
+
+### yarn
+
+    $ yarn add formbot
+
+## Usage
+
+### Sign up for Formbot
+
+Start your free Formbot trial at https://formbotapp.com.
+
+### Configure your domains
+
+Configure your CORS domain setting with your website's domain(s) on
+the Formbot settings page:
+
+### Post away!
+
+Post forms using JavaScript:
+
+    // ES5
+    var Formbot = require('formbot');
+
+    // ES6
+    import Formbot from 'formbot';
+
+    Formbot.config('FORMBOT_API_KEY');
+
+    Formbot.submit({
+        email: "yourcustomer@example.com",
+        message: "I just visited your website and now I want to talk to you!"
+    });
+
+
