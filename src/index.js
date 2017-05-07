@@ -1,6 +1,6 @@
-export default class Library {
+export default class Formbot {
   constructor() {
-    this._name = 'Library';
+    this._name = 'Formbot';
   }
   get name() {
     return this._name;
