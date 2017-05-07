@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/teejayvanslyke/formbot.js/issues"
   },
-  "homepage": "https://formbotapp.com"
+  "homepage": "https://formbotapp.com",
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  }
 }
