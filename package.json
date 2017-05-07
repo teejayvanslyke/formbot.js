@@ -1,6 +1,6 @@
 {
   "name": "formbot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Receive form submissions in your Slack and email without a backend server",
   "main": "lib/formbot.js",
   "scripts": {
