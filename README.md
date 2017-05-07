@@ -34,7 +34,7 @@ Start your free Formbot trial at https://formbotapp.com.
 Configure your CORS domain setting with your website's domain(s) on
 the Formbot settings page:
 
-### Post away!
+### Post forms
 
 Post forms using JavaScript:
 
